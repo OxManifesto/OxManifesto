@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="title desc">
+  <title id="title">FARVEXA — Intelligence, engineered.</title>
+  <desc id="desc">A dark grid footer with the FARVEXA engineering signature.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#05080f"/><stop offset=".55" stop-color="#080d15"/><stop offset="1" stop-color="#07131a"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#e6eaf1" stroke-opacity=".045"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="150" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="150" rx="16" fill="url(#grid)"/>
+  <path d="M0 1h1200" stroke="#00e0d1" stroke-opacity=".65" stroke-width="2"/>
+  <g transform="translate(46 48)">
+    <path d="M0 0h36L18 32z" fill="none" stroke="#00e0d1" stroke-width="2.5"/>
+    <path d="M8 9h20L18 24z" fill="#00e0d1" fill-opacity=".15" stroke="#00e0d1"/>
+    <text x="56" y="17" fill="#e6eaf1" font-family="'Space Grotesk',Inter,Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="5">FARVEXA</text>
+    <text x="57" y="39" fill="#00e0d1" font-family="Inter,Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="3">SOFTWARE • AI • SYSTEMS</text>
+  </g>
+  <g transform="translate(800 55)" font-family="Inter,Arial,sans-serif">
+    <text fill="#e6eaf1" font-size="16" font-weight="600" letter-spacing="3">INTELLIGENCE, ENGINEERED.</text>
+    <text y="30" fill="#98a5b7" font-size="12" letter-spacing="1.5">FARVEXA.DEV  /  FVX CORE  /  2026</text>
+  </g>
+</svg>
